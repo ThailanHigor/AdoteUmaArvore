@@ -1,0 +1,858 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<!-- ***** Welcome Area Start ***** -->
+<section id="home" class="section welcome-area bg-overlay overflow-hidden d-flex align-items-center">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Welcome Intro Start -->
+            <div class="col-12 col-md-7 col-lg-6">
+                <div class="welcome-intro">
+                    <h1 class="text-white">Cuide de uma árvore como se fosse sua</h1>
+                    <p class="text-white my-4">Para que todos nós possamos fazer nossa parte fiscalizando, plantando e
+                        preservando nossas árvores,
+                        tendo mais consciência sobre a importancia da preservação do meio ambiente.</p>
+                    <!-- Store Buttons -->
+                    <div class="button-group store-buttons d-flex">
+                        <a href="">
+                            <img src="/static/img/icon/google-play.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/static/img/icon/app-store.png" alt="">
+                        </a>
+                    </div>
+                    <span class="d-inline-block text-white fw-3 font-italic mt-3">* Disponível em breve para iPhone,
+                        iPad e dispositivos Android</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-6">
+                <!-- Welcome Thumb -->
+                <div class="welcome-thumb mx-auto" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                    <img src="/static/img/icon/celularHome.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Shape Bottom -->
+    <div class="shape-bottom">
+        <svg viewBox="0 0 1920 310" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" class="svg replaced-svg">
+            <title>sApp Shape</title>
+            <desc>Created with Sketch</desc>
+            <defs></defs>
+            <g id="sApp-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="sApp-v1.0" transform="translate(0.000000, -554.000000)" fill="#FFFFFF">
+                    <path
+                        d="M-3,551 C186.257589,757.321118 319.044414,856.322454 395.360475,848.004007 C509.834566,835.526337 561.525143,796.329212 637.731734,765.961549 C713.938325,735.593886 816.980646,681.910577 1035.72208,733.065469 C1254.46351,784.220361 1511.54925,678.92359 1539.40808,662.398665 C1567.2669,645.87374 1660.9143,591.478574 1773.19378,597.641868 C1848.04677,601.75073 1901.75645,588.357675 1934.32284,557.462704 L1934.32284,863.183395 L-3,863.183395"
+                        id="sApp-v1.0"></path>
+                </g>
+            </g>
+        </svg>
+    </div>
+</section>
+<!-- ***** Welcome Area End ***** -->
+
+<!-- ***** Features Area Start ***** -->
+<section id="features" class="section features-area style-two overflow-hidden ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <!-- <span class="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3">
+                        <i class="far fa-lightbulb text-primary mr-1"></i>
+                        <span class="text-primary">Premium</span>
+                        Features
+                    </span> -->
+                    <h2>O que é o Adote uma árvore?</h2>
+                    <p class="d-none d-sm-block mt-4">Um super app que promete tornar a preservação do meio ambiente
+                        ainda mais divertida e eficaz
+                        utilizando tecnologia e de forma que todos possam contribuir.</p>
+                    <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                        obcaecati.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 res-margin">
+                <!-- Image Box -->
+                <div class="image-box text-center icon-1 p-5 wow fadeInLeft" data-wow-delay="0.4s">
+                    <!-- Featured Image -->
+                    <div class="featured-img mb-3">
+                        <img class="avatar-sm" src="/static/img/icon/tree.png" alt="">
+                    </div>
+                    <!-- Icon Text -->
+                    <div class="icon-text">
+                        <h3 class="mb-2">Adoção</h3>
+                        <p>Você vai poder adotar, cuidar e amar sua árvore como se fosse seu pet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 res-margin">
+                <!-- Image Box -->
+                <div class="image-box text-center icon-1 p-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <!-- Featured Image -->
+                    <div class="featured-img mb-3">
+                        <img class="avatar-sm" src="/static/img/icon/gamification.png" alt="">
+                    </div>
+                    <!-- Icon Text -->
+                    <div class="icon-text">
+                        <h3 class="mb-2">Gameficação</h3>
+                        <p>Divirta-se competindo com outros Adotadores. Execute as tarefas com sua árvore e acumule
+                            TreeCoins.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <!-- Image Box -->
+                <div class="image-box text-center icon-1 p-5 wow fadeInRight" data-wow-delay="0.4s">
+                    <!-- Featured Image -->
+                    <div class="featured-img mb-3">
+                        <img class="avatar-sm" src="/static/img/icon/trofeu.png" alt="">
+                    </div>
+                    <!-- Icon Text -->
+                    <div class="icon-text">
+                        <h3 class="mb-2">Recompensas</h3>
+                        <p>Troque seus TreeCoins por prêmios e descontos incríveis e exclusivos de nossos parceiros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Area End ***** -->
+
+<!-- ***** Service Area Start ***** -->
+<section id="service-area" class="section service-area bg-gray overflow-hidden ptb_100">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <!-- Service Text -->
+                <div class="service-text pt-4 pt-lg-0">
+                    <h2 class="text-capitalize mb-4">Nós queremos...</h2>
+                    <!-- Service List -->
+                    <ul class="service-list">
+                        <!-- Single Service -->
+                        <li class="single-service media py-2">
+                            <div class="service-icon pr-4">
+                                <span class="image-icon"><img class="avatar-sm image-icon" src="/static/img/icon/fisico-virtual.png" alt=""></span>
+                            </div>
+                            <div class="service-text media-body">
+                                <p>Proporcionar a junção do físico com o virtual, trabalhando lado a lado para contribuir
+                                    com a preservação do nosso planeta.</p>
+                            </div>
+                        </li>
+                        <!-- Single Service -->
+                        <li class="single-service media py-2">
+                            <div class="service-icon pr-4">
+                                <span class="image-icon"><img class="avatar-sm image-icon" src="/static/img/icon/uniao.png" alt=""></span>
+                            </div>
+                            <div class="service-text media-body">
+                                <p> União. Afinal, a união faz a força. Cada Adotador preservando, fiscalizando e cuidando de sua
+                                    árvore, estará fazendo sua parte ao meio ambiente.
+                                </p>
+                            </div>
+                        </li>
+                        <!-- Single Service -->
+                        <li class="single-service media py-2">
+                            <div class="service-icon pr-4">
+                                <span class="image-icon"><img class="avatar-sm image-icon" src="/static/img/icon/parceiros.png" alt=""></span>
+                            </div>
+                            <div class="service-text media-body">
+                                <p>Aos nossos parceiros, que estejam conosco nessa causa e apoiem à nós e aos Adotadores.
+                                    Precisamos de seu apoio para amenizar o desmatamento e derrubada de árvores.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="scroll btn btn-bordered mt-4">Quero experimentar o App agora</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 order-1 order-lg-2 d-none d-lg-block">
+                <!-- Service Thumb -->
+                <div class="service-thumb mx-auto">
+                    <img src="/static/img/icon/diversao.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Service Area End ***** -->
+
+<!-- ***** Discover Area Start ***** -->
+<section class="section discover-area overflow-hidden ptb_40">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <!-- Discover Thumb -->
+                <div class="service-thumb discover-thumb mx-auto pt-5 pt-lg-0">
+                    <img src="/static/img/icon/planeta.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 order-1 order-lg-2" style="display: flex;align-items: center;">
+                <!-- Discover Text -->
+                <div class="discover-text pt-4 pt-lg-0">
+                    <h2 class="pb-4 pb-sm-0" style="font-size: 40px;">Você colhe o que planta...</h2>
+                    <p class="d-none d-sm-block pt-3 pb-4">Nossa contribuição e preocupação com o planeta vai além do mundo virtual.</p>
+                    <!-- Check List -->
+                    <ul class="check-list">
+                        <li class="py-1">
+                            <!-- List Box -->
+                            <div class="list-box media">
+                                <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                <span class="media-body pl-3">Parte de nossos lucros do app serão convertidos em doações
+                                    à ONGs que combatem e preservam o meio ambiente na Amazônia e outros biomas brasileiros.</span>
+                            </div>
+                        </li>
+                        <li class="py-1">
+                            <!-- List Box -->
+                            <div class="list-box media">
+                                <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                <span class="media-body pl-3">Adotadores poderão trocar seus pontos por mudas e plantas 
+                                    disponíveis no app para troca. </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Discover Area End ***** -->
+
+<!-- ***** Work Area Start ***** -->
+<section id="work-area" class="section work-area bg-green-new overflow-hidden ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Work Content -->
+                <div class="work-content text-center">
+                    <h2 class="text-white">Como o aplicativo funciona?</h2>
+                    <p class="d-none d-sm-block text-white my-3 mt-sm-4 mb-sm-5">Buscamos proporcionar a melhor
+                        experiência possível à você. <br>Em apenas <b>3 passos</b> você adota sua árvore.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <!-- Single Work -->
+                <div class="single-work text-center p-3">
+                    <!-- Work Icon -->
+                    <div class="work-icon">
+                        <img class="avatar-md avatar-novo" src="/static/img/icon/installApp.png" alt="">
+                    </div>
+                    <h3 class="text-white py-3">Instale o aplicativo</h3>
+                    <p class="text-white">O App está na versão Beta, portanto entre em contato conosco para enviarmos a instalação à você. </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <!-- Single Work -->
+                <div class="single-work text-center p-3">
+                    <!-- Work Icon -->
+                    <div class="work-icon">
+                        <img class="avatar-md avatar-novo" src="/static/img/icon/adoteArvore.png" style="width: 215px !important;" alt="">
+                    </div>
+                    <h3 class="text-white py-3">Adote sua árvore</h3>
+                    <p class="text-white">Caminhe pelo seu bairro ou cidade e encontre aquela árvore perfeita para chamar de "sua".</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <!-- Single Work -->
+                <div class="single-work text-center p-3">
+                    <!-- Work Icon -->
+                    <div class="work-icon">
+                        <img class="avatar-md avatar-novo" src="/static/img/icon/tarefas.png" style="width: 100px !important;" alt="">
+                    </div>
+                    <h3 class="text-white py-3">Cumpra as tarefas!</h3>
+                    <p class="text-white">Adoção é um ato de responsabilidade. 
+                        Cumpra as tarefas semanais com sua árvore e acumule TreeCoins.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Work Area End ***** -->
+
+<!-- ***** Screenshots Area Start ***** -->
+<section id="screenshots" class="section screenshots-area ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <span class="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3">
+                        <i class="far fa-lightbulb text-primary mr-1"></i>
+                        <span class="text-primary">Experiência</span>
+                        do Usuário
+                    </span>
+                    <h2 class="text-capitalize">Interface Simples &amp; Fácil </h2>
+                    <p class="d-none d-sm-block mt-4">Aqui estão algumas telas do app. <br>Prezamos muito pela melhor experiência possível aos nossos adotadores.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!-- App Screenshot Slider Area -->
+                <div class="app-screenshots">
+                    <!-- Single Screenshot Item -->
+                    <div class="single-screenshot">
+                        <img src="/static/img/screenshots/1.jpg" alt="">
+                    </div>
+                    <!-- Single Screenshot Item -->
+                    <div class="single-screenshot">
+                        <img src="/static/img/screenshots/2.jpg" alt="">
+                    </div>
+                    <!-- Single Screenshot Item -->
+                    <div class="single-screenshot">
+                        <img src="/static/img/screenshots/3.jpg" alt="">
+                    </div>
+                    <!-- Single Screenshot Item -->
+                    <div class="single-screenshot">
+                        <img src="/static/img/screenshots/4.jpg" alt="">
+                    </div>
+                    <!-- Single Screenshot Item -->
+                    <div class="single-screenshot">
+                        <img src="/static/img/screenshots/5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Screenshots Area End ***** -->
+
+<!-- ***** Review Area Start ***** -->
+<section id="review" class="review-area ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <span class="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3">
+                        <i class="far fa-lightbulb text-primary mr-1"></i>
+                        <span class="text-primary">Nossas</span>
+                        Avaliações
+                    </span>
+                    <h2 class="text-capitalize">Feedback de nossos usuários</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 res-margin">
+                <!-- Single Review -->
+                <div class="single-review card">
+                    <!-- Card Top -->
+                    <div class="card-top p-4">
+                        <div class="review-icon">
+                        </div>
+                        <h4 class="text-primary mt-4 mb-3">Ótima ideia!</h4>
+                        <!-- Review Text -->
+                        <div class="review-text">
+                            <p>Utilizando o app, creio que além de melhorar a preservação, poderia conscientizar 
+                                outras pessoas à causa.</p>
+                        </div>
+                        <!-- Quotation Icon -->
+                        <div class="quot-icon">
+                            <img class="avatar-md" src="/static/img/icon/quote.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 res-margin">
+                <!-- Single Review -->
+                <div class="single-review card">
+                    <!-- Card Top -->
+                    <div class="card-top p-4">
+                        <div class="review-icon">
+
+                        </div>
+                        <h4 class="text-primary mt-4 mb-3">Sobre os prêmios?</h4>
+                        <!-- Review Text -->
+                        <div class="review-text">
+                            <p>Interessante, pois assim irá incentivar outras pessoas à baixarem o app e adotar uma árvore.</p>
+                        </div>
+                        <!-- Quotation Icon -->
+                        <div class="quot-icon">
+                            <img class="avatar-md" src="/static/img/icon/quote.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <!-- Single Review -->
+                <div class="single-review card">
+                    <!-- Card Top -->
+                    <div class="card-top p-4">
+                        <div class="review-icon">
+                        </div>
+                        <h4 class="text-primary mt-4 mb-3">Excelente</h4>
+                        <!-- Review Text -->
+                        <div class="review-text">
+                            <p>É algo que já faço com as árvores perto de mim. Então o app poderia me ajudar ainda mais além de engajar novos usuários.</p>
+                        </div>
+                        <!-- Quotation Icon -->
+                        <div class="quot-icon">
+                            <img class="avatar-md" src="/static/img/icon/quote.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Review Area End ***** -->
+
+<!-- ***** Price Plan Area Start ***** -->
+<section id="pricing" class="section price-plan-area bg-gray overflow-hidden ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <h2>Para nossos Parceiros</h2>
+                    <p class="d-none d-sm-block mt-4">
+                        Temos planos de anúncios e propagandas personalizadas geográficamente, no qual o parceiro mesmo poderá
+                        colocar um marcador (Pin) em um mapa no local que desejar. Assim, adotadores ao passarem próximo ao seu Pin vão visualizar suas
+                        promoçoes e anúncios.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-lg-8">
+                <div class="row price-plan-wrapper">
+                    <div class="col-12 col-md-6">
+                        <!-- Single Price Plan -->
+                        <div class="single-price-plan text-center p-5 wow fadeInLeft" data-aos-duration="2s"
+                            data-wow-delay="0.4s">
+                            <!-- Plan Thumb -->
+                            <div class="plan-thumb">
+                                <img class="avatar-lg" src="/static/img/icon/basico.png" alt="">
+                            </div>
+                            <!-- Plan Title -->
+                            <div class="plan-title my-2 my-sm-3">
+                                <h4 class="text-uppercase">Básico</h4>
+                            </div>
+                            <!-- Plan Price -->
+                            <div class="plan-price pb-2 pb-sm-3">
+                                <h2 class="fw-7"><small class="fw-6">R$</small>49,90</h2>
+                            </div>
+                            <!-- Plan Description -->
+                            <div class="plan-description">
+                                <ul class="plan-features">
+                                    <li class="border-top py-3">30 Pins</li>
+                                    <li class="border-top py-3">Banner Destaque na Home</li>
+                                    <li class="border-top py-3">Anúncios por todo App</li>
+                                    <li class="border-top py-3">Selo Verde Parceiro Oficial*</li>
+                                </ul>
+                            </div>
+                            <!-- Plan Button -->
+                            <div class="plan-button">
+                                <a href="#" class="btn mt-4">Apoiar à Causa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <!-- Single Price Plan -->
+                        <div class="single-price-plan text-center p-5 wow fadeInRight" data-aos-duration="2s"
+                            data-wow-delay="0.4s">
+                            <!-- Plan Thumb -->
+                            <div class="plan-thumb">
+                                <img class="avatar-lg" src="/static/img/icon/pro.png" alt="">
+                            </div>
+                            <!-- Plan Title -->
+                            <div class="plan-title my-2 my-sm-3">
+                                <h4 class="text-uppercase">Pro</h4>
+                            </div>
+                            <!-- Plan Price -->
+                            <div class="plan-price pb-2 pb-sm-3">
+                                <h2 class="fw-7"><small class="fw-6">R$</small>89,90</h2>
+                            </div>
+                            <!-- Plan Description -->
+                            <div class="plan-description">
+                                <ul class="plan-features">
+                                    <li class="border-top py-3">50 Pins</li>
+                                    <li class="border-top py-3">Banner Destaque na Home</li>
+                                    <li class="border-top py-3">Anúncios por todo App</li>
+                                    <li class="border-top py-3">Selo Verde Parceiro Oficial*</li>
+                                    <li class="border-top py-3">Gestão de anúncios através de um painel Administrativo exclusivo</li>
+                                    <li class="border-top py-3">Relatório de conversão dos anúncios</li>
+                                </ul>
+                            </div>
+                            <!-- Plan Button -->
+                            <div class="plan-button">
+                                <a href="#" class="btn mt-4">Apoiar à Causa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center pt-5">
+            <p class="text-body pt-4 fw-5">Deseja uma parceria personalizada? <a href="#contact" class="scroll">Entre em contato conosco</a></p>
+        </div>
+    </div>
+</section>
+<!-- ***** Price Plan Area End ***** -->
+
+<!-- ***** FAQ Area Start ***** -->
+<section class="section faq-area style-two ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <h2 class="text-capitalize">Dúvidas Frequentes</h2>
+                    <p class="d-none d-sm-block mt-4">Se você tem dúvidas, nós respondemos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <!-- FAQ Content -->
+                <div class="faq-content">
+                    <!-- sApp Accordion -->
+                    <div class="accordion" id="sApp-accordion">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-6">
+                                <!-- Single Card -->
+                                <div class="card border-0">
+                                    <!-- Card Header -->
+                                    <div class="card-header bg-inherit border-0 p-0">
+                                        <h2 class="mb-0">
+                                            <button class="btn px-0 py-3" type="button">
+                                                Como instalar o Aplicativo?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body px-0 py-3">
+                                        O aplicativo ainda está em desenvolvimento. Logo estará disponivel nas lojas 
+                                        do Google e Apple. Para não perder nada e ser um dos primeiros à utilizar, cadastre-se
+                                        em nossa newsletter abaixo.
+                                    </div>
+                                </div>
+                                <!-- Single Card -->
+                                <div class="card border-0">
+                                    <!-- Card Header -->
+                                    <div class="card-header bg-inherit border-0 p-0">
+                                        <h2 class="mb-0">
+                                            <button class="btn px-0 py-3" type="button">
+                                                Quem pode adotar uma árvore?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body px-0 py-3" style="text-align: justify;">
+                                        Qualquer pessoa pode adotar virtualmente sua árvore. Para isso, basta ir fisicamente 
+                                        até alguma, tirar uma foto sua com a árvore e pressionar o botão de adoção dentro do app.
+                                    </div>
+                                </div>
+                                <!-- Single Card -->
+                                <div class="card border-0">
+                                    <!-- Card Header -->
+                                    <div class="card-header bg-inherit border-0 p-0">
+                                        <h2 class="mb-0">
+                                            <button class="btn px-0 py-3" type="button">
+                                                Outro Adotador pode adotar a mesma árvore que a minha?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body px-0 py-3" style="text-align: justify;">
+                                        Não. Cada árvore é adotada virtualmente por um usuário. Garantimos isso no aplicativo
+                                        utilizando tecnologias de Inteligência Artificial e Geolocalização. A posição do usuário 
+                                        fica marcada no mapa para termos esse controle.
+                                    </div>
+                                </div>
+                                <div class="card border-0">
+                                    <!-- Card Header -->
+                                    <div class="card-header bg-inherit border-0 p-0">
+                                        <h2 class="mb-0">
+                                            <button class="btn px-0 py-3" type="button">
+                                                Como funciona o Ranking?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body px-0 py-3" style="text-align: justify;">
+                                        Você estará competindo com adotadores próximos à sua localização, para ser justo.
+                                        O ranking será montado a partir das tarefas que forem sendo executadas ao longo do mês.
+                                        Os Top 3 do ranking mensal, ganharão TreeCoins e prêmios exclusivos.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <!-- Single Card -->
+                                <div class="card border-0">
+                                    <!-- Card Header -->
+                                    <div class="card-header bg-inherit border-0 p-0">
+                                        <h2 class="mb-0">
+                                            <button class="btn px-0 py-3" type="button">
+                                                O que são as tarefas semanais?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body px-0 py-3" style="text-align: justify;">
+                                        Serão tarefas que o adotador precisa executar com sua árvore a cada semana.
+                                        Tarefas como, ir até ela 2 vezes, tirar 5 fotos, rega-lá etc. <br>
+                                        Cada tarefa, rende ao adotador TreeCoins.
+                                        Entendemos que desta forma você estará fiscalizando e zelando por sua árvore.<br>
+                                        Ah, e não esquece de regar e adubar sua árvore se for necessário em!
+                                    </div>
+                                </div>
+                                <!-- Single Card -->
+                                <div class="card border-0">
+                                    <!-- Card Header -->
+                                    <div class="card-header bg-inherit border-0 p-0">
+                                        <h2 class="mb-0">
+                                            <button class="btn px-0 py-3" type="button">
+                                                O que são TreeCoins e para que servem?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body px-0 py-3" style="text-align: justify;">
+                                        O TreeCoin é nossa moeda personalizada do App. <br>
+                                        Você ganha TreeCoins executando as tarefas semanais e assistindo anúncios.
+                                        Os TreeCoins acumulados, podem ser trocados por descontos e prêmios disponíveis em nossa loja no App.
+                                    </div>
+                                </div>
+                                <!-- Single Card -->
+                                <div class="card border-0">
+                                    <!-- Card Header -->
+                                    <div class="card-header bg-inherit border-0 p-0">
+                                        <h2 class="mb-0">
+                                            <button class="btn px-0 py-3" type="button">
+                                                Como me torno um parceiro apoiador?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body px-0 py-3" style="text-align: justify;">
+                                        Ao contratar algum dos planos acima, automaticamente você se torna um parceiro.<br>
+                                        Terá todos os beneficios de seu plano além de um lugar especial reservado em nossos corações 
+                                        e de nossos adotadores.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p class="text-body text-center pt-4 px-3 fw-5">Ainda tem dúvida sobre algo? <a
+                                    href="#contact" class="scroll">Não deixe de entrar em contato conosco.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** FAQ Area End ***** -->
+
+
+<!-- ***** Subscribe Area Start ***** -->
+<section class="section subscribe-area  ptb_100 bg-green-new">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="subscribe-content text-center">
+                    <h2 style="color:#fff">Receba novidades do App</h2>
+                    <p class="my-4" style="color:#fff">Fique por dentro de nossas novidades e doações realizadas às ONGs.<br>
+                        Além disso, o App está em desenvolvimento e logo estará disponível.
+                        Se você quiser ser um dos primeiros à testar, cadastre seu email abaixo.
+                    </p>
+                    <!-- Subscribe Form -->
+                    <form class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="NewsInputEmail" placeholder="Digite seu melhor email">
+                        </div>
+                        <button type="button" class="btn btn-lg btn-block cadastrar">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Subscribe Area End ***** -->
+
+<!--====== Contact Area Start ======-->
+<section id="contact" class="contact-area bg-gray ptb_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <h2 class="text-capitalize">Contato</h2>
+                    <p class="d-none d-sm-block mt-4">Gostamos de ouvir as pessoas.<br>
+                        Você pode entrar em contato conosco à qualquer momento <br>
+                        pelo formúlario abaixo, WhatsApp ou e-mail.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-5">
+                <!-- Contact Us -->
+                <div class="contact-us">
+                    <p class="mb-3">Estamos disponíveis a qualquer dia e horário e prontos para te responder e ouvir o que você tem a nos dizer.</p>
+                    <ul>
+                        <li class="py-2">
+                            <a class="media" href="#">
+                                <div class="social-icon mr-3">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <span class="media-body align-self-center">24 9 9926-6523</span>
+                            </a>
+                        </li>
+                        <li class="py-2">
+                            <a class="media" href="#">
+                                <div class="social-icon mr-3">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <span class="media-body align-self-center">thailan-higor@hotmail.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 pt-4 pt-md-0">
+                <!-- Contact Box -->
+                <div class="contact-box text-center">
+                    <!-- Contact Form -->
+                    <form id="contact-form">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control Nome-Contato" name="Nome" placeholder="Nome"
+                                        required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control Email-Contato" name="email" placeholder="Email"
+                                        required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control Assunto-Contato" name="Assunto" placeholder="Assunto"
+                                        required="required">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control Mensagem-Contato" name="Mensagem" placeholder="Mensagem"
+                                        required="required"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="button" class="btn btn-lg btn-block mt-3 cadastrar-contato"><span class="text-white pr-3"><i
+                                            class="fas fa-paper-plane"></i></span>Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="form-message"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====== Contact Area End ======-->
+
+<!--====== Height Emulator Area Start ======-->
+<div class="height-emulator d-none d-lg-block"></div>
+
+<footer class="footer-area footer-fixed">
+    <!-- Footer Top -->
+    <div class="footer-top ptb_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Footer Items -->
+                    <div class="footer-items">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="#">
+                            <img class="logo" src="assets/img/logo/logo.png" alt="">
+                        </a>
+                        <p class="mt-2 mb-3">Siga-nos em nossas redes sociais.</p>
+                        <!-- Social Icons -->
+                        <div class="social-icons d-flex">
+                            <a class="facebook" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="twitter" style="background-color: #d21884 !important;" href="#">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="twitter" href="#">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Footer Items -->
+                    <div class="footer-items">
+                        <!-- Footer Title -->
+                        <h3 class="footer-title mb-2">Sobre nós</h3>
+                        <ul>
+                            <li class="py-2"><a href="#features" class="scroll">Quem Somos</a></li>
+                            <li class="py-2"><a href="#service-area" class="scroll">Nossa Missão</a></li>
+                            <li class="py-2"><a href="#contact" class="scroll">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Footer Items -->
+                    <div class="footer-items">
+                        <!-- Footer Title -->
+                        <h3 class="footer-title mb-2">Sobre o App</h3>
+                        <ul>
+                            <li class="py-2"><a href="#work-area" class="scroll">Como Funciona</a></li>
+                            <li class="py-2"><a href="#screenshots" class="scroll">Preview</a></li>
+                            <li class="py-2"><a href="#pricing" class="scroll">Empresas</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Footer Items -->
+                    <div class="footer-items">
+                        <!-- Footer Title -->
+                        <h3 class="footer-title mb-2">Download</h3>
+                        <!-- Store Buttons -->
+                        <div class="button-group store-buttons store-black d-flex flex-wrap">
+                            <a href="#">
+                                <img src="/static/img/icon/google-play-black.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="/static/img/icon/app-store-black.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Copyright Area -->
+                    <div
+                        class="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
+                        <!-- Copyright Left -->
+                        <div class="copyright-left">&copy; Copyrights 2020. Todos os direitos reservados.</div>
+                        <!-- Copyright Right -->
+                        <div class="copyright-right">Desenvolvido por <a href="#">Equipe Adote uma árvore</a>  <i class="fas fa-heart"></i> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+
+{% block scripts %}
+{{ super()}}
+{% endblock %}
