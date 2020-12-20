@@ -6,7 +6,7 @@ from flask_mail import Message, Mail
 
 app = create_app("development")
 migrate = Migrate(app, db)
-
+application=app
 @app.shell_context_processor
 def make_shell_processor():
     return dict(
@@ -17,4 +17,5 @@ def make_shell_processor():
     )
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    application.debug = True
+    application.run(host="0.0.0.0")

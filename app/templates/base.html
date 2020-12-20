@@ -9,6 +9,16 @@
 
   <title>Adote uma árvore</title>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M9LE8B0E83"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M9LE8B0E83');
+  </script>
+
   {% block styles %}
   <link rel="icon" href="{{ url_for('static', filename='/img/favicon.png')}}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
@@ -49,9 +59,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link scroll" href="#work-area">Como Funciona</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link scroll" href="#screenshots">Preview</a>
             </li>
             <li class="nav-item">
               <a class="nav-link scroll" href="#pricing">Empresas</a>
